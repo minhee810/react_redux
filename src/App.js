@@ -52,6 +52,7 @@ function Left1(props) {
 }
 
 function Left2(props) {
+  console.log("2");
   return (
     <div>
       <h1>Left2 : </h1>
@@ -61,6 +62,7 @@ function Left2(props) {
 }
 
 function Left3(props) {
+  console.log("3");
   // function f(state) {
   //   return state.number;
   // }
